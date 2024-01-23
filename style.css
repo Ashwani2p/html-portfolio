@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    /* Styles for screens with a maximum width of 600 pixels */
+    .portfolio{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,1fr);
+        gap: 0;
+        margin: 0;
+    }
+    .intro{
+        grid-row-start: 1;
+        grid-row-end: 2;
+       font-family: serif;
+    }
+    
+    .pic{
+        background-color: #B4DD3B;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding-left: 80px;
+    }
+    
+    .pic img{
+        width:fit-content ;
+    }
+    
+    .intro{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+        gap: 0;
+        padding: 0;
+    }
+    .greet{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding: 50px;
+        font-size: 50px;
+    }
+    .self{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding: 50px;
+        padding-top: 30px;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .self P{
+        font-size: 25px;
+        color: #B4DD3B;
+    }
+    .btn{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        padding: 50px;
+        padding-top: 0;
+    }
+    .btn button{
+        height: 40px;
+        width: 180px;
+        background-color: #B4DD3B;
+        border: 0;
+    }
+    .btn button:hover{
+      cursor: pointer;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    /* Styles for screens with a width between 600 and 1200 pixels */
+    .portfolio{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr;
+        gap: 0;
+        margin: 0;
+    }
+    .intro{
+        grid-column-start: 1;
+        grid-column-end: 2;
+       font-family: serif;
+    }
+    
+    .pic{
+        background-color: #B4DD3B;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        padding-left: 150px;
+    }
+    
+    .pic img{
+        width:fit-content ;
+    }
+    
+    .intro{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+        gap: 0;
+        padding: 0;
+    }
+    .greet{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding: 50px;
+        font-size: 50px;
+    }
+    .self{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding: 50px;
+        padding-top: 30px;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .self P{
+        font-size: 25px;
+        color: #B4DD3B;
+    }
+    .btn{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        padding: 50px;
+        padding-top: 0;
+    }
+    .btn button{
+        height: 40px;
+        width: 180px;
+        background-color: #B4DD3B;
+        border: 0;
+    }
+    .btn button:hover{
+      cursor: pointer;
+    }
+}
+@media screen and (orientation: landscape) {
+    /* Styles for screens in landscape orientation */
+
+
+    .portfolio{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr;
+        gap: 0;
+        margin: 0;
+    }
+    .intro{
+        grid-column-start: 1;
+        grid-column-end: 2;
+       font-family: serif;
+    }
+    
+    .pic{
+        background-color: #B4DD3B;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        padding-left: 150px;
+    }
+    
+    .pic img{
+        width:fit-content ;
+    }
+    
+    .intro{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+        gap: 0;
+        padding: 0;
+    }
+    .greet{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding: 50px;
+        font-size: 50px;
+    }
+    .self{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding: 50px;
+        padding-top: 30px;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .self P{
+        font-size: 25px;
+        color: #B4DD3B;
+    }
+    .btn{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        padding: 50px;
+        padding-top: 0;
+    }
+    .btn button{
+        height: 40px;
+        width: 180px;
+        background-color: #B4DD3B;
+        border: 0;
+    }
+    .btn button:hover{
+      cursor: pointer;
+    }
+    
+}
+
+
